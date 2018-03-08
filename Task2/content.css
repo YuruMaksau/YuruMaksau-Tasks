@@ -4,14 +4,13 @@
     display: inline-block;
 }
 .list a {
-    color: yellowgreen;
     text-decoration-style: dashed;
     margin: 3px;
     padding: 2px;
 }
 
 .list a:visited {
-    color: brown;
+    color: cornflowerblue;
 }
 
 .list a:hover {
