@@ -1,0 +1,24 @@
+.content div {
+    margin: 10px;
+    background: rgb(237,238,240);
+    display: inline-block;
+}
+.list a {
+    color: yellowgreen;
+    text-decoration-style: dashed;
+    margin: 3px;
+    padding: 2px;
+}
+
+.list a:visited {
+    color: brown;
+}
+
+.list a:hover {
+    color: chartreuse;
+    text-decoration: underline;
+}
+.a0 a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
