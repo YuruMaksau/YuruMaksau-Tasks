@@ -1,19 +1,23 @@
-.main div {
-    margin: 4px;
+main div {
     background: rgb(237,238,240);
   }
-nav a {
+ul a {
     text-decoration: none;
     margin: 3px;
     padding: 2px;
     border-bottom: 1px dashed #000080;
 }
 
-nav a:visited {
+ul a:visited {
     color: cornflowerblue;
 }
 
-nav a:hover {
+ul a:hover {
     color: chartreuse;
-    text-decoration: underline;
+}
+
+li {
+    display: inline;
+    margin-left: 1px;
+    padding-left: 1px;
 }
