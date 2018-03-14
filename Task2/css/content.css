@@ -1,28 +1,32 @@
-nav a {
+.navigation a {
     text-decoration: none;
-    margin: 1px;
-    padding: 1px;
     border-bottom: 1px dashed #000080;
-}
+    font-size: 15px;
+ }
 
-nav a:visited {
+.navigation a:visited {
     color: cornflowerblue;
 }
 
-nav a:hover {
+.navigation a:hover {
     color: chartreuse;
 }
 
-nav a:not(:last-child):after {
+.navigation ul li:not(:last-child)::after {
     content: "|";
+    margin: 0 10px;
 }
 
-::after {
-    margin: 0 7px;
-    color: cornflowerblue;
-}
-
-nav {
+.navigation {
     display: flex;
     justify-content: center;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation ul li {
+    display: inline;
 }
