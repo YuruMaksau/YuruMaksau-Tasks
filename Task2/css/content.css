@@ -17,7 +17,12 @@ nav a:not(:last-child):after {
     content: "|";
 }
 
+::after {
+    margin: 0 7px;
+    color: cornflowerblue;
+}
+
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
