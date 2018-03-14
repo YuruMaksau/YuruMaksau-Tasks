@@ -1,23 +1,23 @@
-main div {
-    background: rgb(237,238,240);
-  }
-ul a {
+nav a {
     text-decoration: none;
-    margin: 3px;
-    padding: 2px;
+    margin: 1px;
+    padding: 1px;
     border-bottom: 1px dashed #000080;
 }
 
-ul a:visited {
+nav a:visited {
     color: cornflowerblue;
 }
 
-ul a:hover {
+nav a:hover {
     color: chartreuse;
 }
 
-li {
-    display: inline;
-    margin-left: 1px;
-    padding-left: 1px;
+nav a:not(:last-child):after {
+    content: "|";
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
 }
