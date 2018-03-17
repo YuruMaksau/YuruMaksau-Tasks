@@ -33,17 +33,21 @@ body {
 }
 
 .navigation a:nth-child(2n) {
-    background: #1c1fa7;
+    /*background: #1c1fa7;*/
+
 }
 
 .navigation ul {
     list-style: none;
     padding: 0;
-
 }
 
 .navigation ul li {
     display: inline;
+}
+
+.navigation ul li a::before {
+    content: url("../icon/icon8.png");
 }
 
 .navigation ul li:not(:last-child)::after {
@@ -75,4 +79,6 @@ body {
      font-weight: normal;
      font-style: normal;
  }
+
+
 
