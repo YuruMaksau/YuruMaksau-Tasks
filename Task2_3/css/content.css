@@ -32,11 +32,6 @@ body {
     border-bottom-style: solid;
 }
 
-.navigation a:nth-child(2n) {
-    /*background: #1c1fa7;*/
-
-}
-
 .navigation ul {
     list-style: none;
     padding: 0;
@@ -80,5 +75,17 @@ body {
      font-style: normal;
  }
 
+.chapter table {
+    margin: auto;
+    border: 2px solid #83d0f2;
+}
 
+.chapter td, th {
+    text-align: center;
+    background: #00ac64;
+}
+
+.chapter {
+    margin-bottom: 20px;
+}
 
