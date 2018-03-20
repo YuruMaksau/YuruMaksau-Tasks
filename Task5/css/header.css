@@ -29,6 +29,16 @@ header {
     padding: 4px;
 }
 
+.signboard:before{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    background: #ffffff;
+    border: 3px solid black;
+    width:360px;
+    height:90px;
+}
+
 .inner {
     width: 350px;
     height: 80px;

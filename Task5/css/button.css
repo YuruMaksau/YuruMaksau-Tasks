@@ -1,90 +1,66 @@
-.layout-white{
+.layout {
     margin-top: 10px;
     padding: 15px;
-    border: 0.5px solid #beb0b0;
+    border: 1px solid #beb0b0;
 }
 
-.input .white{
+.button_field {
     display: flex;
     align-items: flex-end;
-
 }
 
-.input button {
+.button {
     border: 0;
     padding: 0;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
-    margin-right: 5px;
-    margin-bottom: 8px;
+    margin: 0 5px 8px 0;
 }
 
-.pink {
-    height: 40px;
-    width: 180px;
-    background: #f06eaa;
-    font-size: 27px;
-}
-
-.green {
-    height: 27px;
-    width: 87px;
-    background: #18a63d;
-    font-size: 12px;
-}
-
-#blue {
-    height: 27px;
-    width: 87px;
-    background: #3f90bf;
-    font-size: 12px;
-}
-
-.red {
-    height: 27px;
-    width: 87px;
-    background: #ff3333;
-    font-size: 12px;
-}
-
-#orange {
-    height: 27px;
-    width: 100px;
-    background: #fc9b00;
-    font-size: 12px;
-}
-
-#yellow {
-    height: 27px;
-    width: 100px;
-    background: #feea00;
-    font-size: 12px;
-}
-
-#blueSmall {
+.button_small {
     height: 20px;
     width: 75px;
-    background: #3f90bf;
-    font-size: 12px;
-}
-
-#orangeSmall {
-    height: 20px;
-    width: 77px;
-    background: #fc9b00;
     font-size: 10px;
 }
 
-#yellowSmall {
-    height: 23px;
-    width: 85px;
-    background: #feea00;
+.button_middle {
+    height: 27px;
+    width: 95px;
     font-size: 12px;
 }
-
-.layout-black {
-    background: #393932;
-    margin-top: 10px;
-    padding: 15px;
+.button_large {
+    height: 40px;
+    width: 180px;
+    font-size: 27px;
 }
+
+.pink {
+    background: #f06eaa;
+}
+
+.green {
+    background: #18a63d;
+}
+
+.blue {
+    background: #3f90bf;
+}
+
+.red {
+    background: #ff3333;
+}
+
+.orange {
+    background: #fc9b00;
+}
+
+.yellow {
+    background: #feea00;
+}
+
+.dark {
+    background: #393932;
+}
+
+
