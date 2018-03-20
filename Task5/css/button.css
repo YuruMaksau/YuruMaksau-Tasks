@@ -29,6 +29,7 @@
     width: 95px;
     font-size: 12px;
 }
+
 .button_large {
     height: 40px;
     width: 180px;
@@ -62,5 +63,3 @@
 .dark {
     background: #393932;
 }
-
-

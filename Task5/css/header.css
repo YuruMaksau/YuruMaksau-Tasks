@@ -12,7 +12,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .signboard {
@@ -29,14 +28,14 @@ header {
     padding: 4px;
 }
 
-.signboard:before{
-    content:"";
-    position:absolute;
-    z-index:-1;
+.signboard::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
     background: #ffffff;
     border: 3px solid black;
-    width:360px;
-    height:90px;
+    width: 360px;
+    height: 90px;
 }
 
 .inner {
@@ -44,7 +43,6 @@ header {
     height: 80px;
     border: 2.5px solid;
     padding: 0;
-
 }
 
 .social {
@@ -57,7 +55,7 @@ header {
     display: inline-block;
     background: url("../image/spice-social-gadget-sprite.png") no-repeat;
     background-size: 1100% 300%;
-    width:45px;
+    width: 45px;
     height: 45px;
     margin-bottom: 20px;
     margin-right: 20px;
@@ -68,6 +66,7 @@ header {
 .icon_1 {
     background-position-x: 0;
 }
+
 .icon_2 {
     background-position-x: 10%;
 }
