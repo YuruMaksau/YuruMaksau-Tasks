@@ -43,7 +43,7 @@ header {
     width: 1350px;
 }
 
-.sotial {
+.icon {
     display: inline-block;
     background: url("../image/spice-social-gadget-sprite.png") no-repeat;
     background-size: 1100% 300%;
@@ -52,28 +52,13 @@ header {
     margin-bottom: 20px;
     margin-right: 20px;
     border-radius: 5px;
+    background-position-y: 50%;
 }
 
-.icon1,
-.icon12,
-.icon23,
-.icon34,
-.icon45,
-.icon56,
-.icon67,
-.icon78,
-.icon89 {
-    background-position: 0 50%;
+.icon1 {
+    background-position-x: 0;
 }
-.icon2,
-.icon13,
-.icon24,
-.icon35,
-.icon46,
-.icon57,
-.icon68,
-.icon79,
-.icon90 {
+.icon2 {
     background-position: 10% 50%;
 }
 
