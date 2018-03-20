@@ -1,7 +1,7 @@
 body {
     margin: 0 10px;
     padding: 0 5px;
-    background-image: url("../images/vintage-concrete.png") ;
+    background-image: url("../images/vintage-concrete.png");
     background-size: 100%;
 }
 
@@ -66,21 +66,22 @@ body {
     padding-left: 5ex;
 }
 
- @font-face {
-     font-family: "Amiko";
-     src: local("Amiko"),
-          url("../fonts/amiko/amiko-v2-latin-regular.woff2") format("woff2"),
-          url("../fonts/amiko/amiko-v2-latin-regular.ttf") format("ttf");
-     font-weight: normal;
-     font-style: normal;
- }
+@font-face {
+    font-family: "Amiko";
+    src: local("Amiko"),
+        url("../fonts/amiko/amiko-v2-latin-regular.woff2") format("woff2"),
+        url("../fonts/amiko/amiko-v2-latin-regular.ttf") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
 
 .chapter table {
     margin: auto;
     border: 2px solid #83d0f2;
 }
 
-.chapter td, th {
+.chapter td,
+th {
     text-align: center;
     background: #00ac64;
 }
@@ -94,5 +95,3 @@ body {
     justify-content: center;
     margin: 10px;
 }
-
-
