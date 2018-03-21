@@ -20,8 +20,6 @@ header {
 }
 
 .signboard {
-    width: 370px;
-    height: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +28,7 @@ header {
     z-index: 1;
     font-size: 35px;
     font-style: italic;
-    padding: 4px;
+    padding: 36px 64px;
 }
 
 .signboard::before {
@@ -39,8 +37,7 @@ header {
     z-index: -1;
     background: #ffffff;
     border: 3px solid black;
-    width: 360px;
-    height: 90px;
+    padding: 11% 47%;
 }
 
 .social {
