@@ -1,0 +1,23 @@
+{
+  "name": "epam_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint \"**/*.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YuruMaksau/YuruMaksau-Tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YuruMaksau/YuruMaksau-Tasks/issues"
+  },
+  "homepage": "https://github.com/YuruMaksau/YuruMaksau-Tasks#readme",
+  "dependencies": {
+    "stylelint": "^9.1.3",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
