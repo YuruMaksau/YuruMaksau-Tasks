@@ -1,9 +1,3 @@
-.layout {
-    margin-top: 10px;
-    padding: 15px;
-    border: 1px solid #beb0b0;
-}
-
 body {
     width: 1200px;
     margin: 0 auto;
@@ -28,7 +22,7 @@ header {
     z-index: 1;
     font-size: 35px;
     font-style: italic;
-    padding: 36px 64px;
+    padding: 40px 70px;
 }
 
 .signboard::before {
@@ -37,7 +31,8 @@ header {
     z-index: -1;
     background: #ffffff;
     border: 3px solid black;
-    padding: 11% 47%;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
 }
 
 .social {
