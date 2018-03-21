@@ -1,0 +1,62 @@
+.layout {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid #beb0b0;
+}
+
+.button_field {
+    display: flex;
+    align-items: flex-end;
+}
+
+.button {
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 5px 8px 0;
+}
+
+.button_small {
+    padding: 5px;
+    font-size: 10px;
+}
+
+.button_middle {
+    padding: 8px;
+    font-size: 12px;
+}
+
+.button_large {
+    padding: 10px;
+    font-size: 27px;
+}
+
+.pink {
+    background: #f06eaa;
+}
+
+.green {
+    background: #18a63d;
+}
+
+.blue {
+    background: #3f90bf;
+}
+
+.red {
+    background: #ff3333;
+}
+
+.orange {
+    background: #fc9b00;
+}
+
+.yellow {
+    background: #feea00;
+}
+
+.dark {
+    background: #393932;
+}
