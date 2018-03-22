@@ -1,0 +1,63 @@
+.ts6-field {
+    display: flex;
+    align-items: flex-end;
+}
+
+.ts6-button__field {
+    border: 0;
+    padding: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 5px 8px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.ts6-button__field:hover {
+    background: #a6a3a5;
+    color: #33292e
+}
+
+.ts6-button-small {
+    padding: 5px;
+    font-size: 10px;
+}
+
+.ts6-button-middle {
+    padding: 8px;
+    font-size: 12px;
+}
+
+.ts6-button-large {
+    padding: 10px;
+    font-size: 27px;
+}
+
+.ts6-pink {
+    background: #f06eaa;
+}
+
+.ts6-green {
+    background: #18a63d;
+}
+
+.ts6-blue {
+    background: #3f90bf;
+}
+
+.ts6-red {
+    background: #ff3333;
+}
+
+.ts6-orange {
+    background: #fc9b00;
+}
+
+.ts6-yellow {
+    background: #feea00;
+}
+
+.ts6-dark {
+    background: #393932;
+}

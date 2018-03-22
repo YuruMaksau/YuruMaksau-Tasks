@@ -1,0 +1,98 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ts6-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+.ts6-signboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background: #ffffff;
+    z-index: 1;
+    font-size: 35px;
+    font-style: italic;
+    padding: 40px 70px;
+}
+
+.ts6-signboard::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: #ffffff;
+    border: 3px solid black;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+}
+
+.ts6-social {
+    transform: rotate(-1.7grad);
+}
+
+.ts6-social-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ts6-social-line__icon{
+    background: url("../image/spice-social-gadget-sprite.png") no-repeat;
+    background-size: 1100% 300%;
+    width: 45px;
+    height: 45px;
+    margin: 12px;
+    border-radius: 5px;
+    background-position-y: 50%;
+}
+
+.ts6-social-line__icon_icon-1 {
+    background-position-x: 0;
+}
+
+.ts6-social-line__icon_icon-2 {
+    background-position-x: 10%;
+}
+
+.ts6-social-line__icon_icon-3 {
+    background-position-x: 20%;
+}
+
+.ts6-social-line__icon_icon-4 {
+    background-position-x: 30%;
+}
+
+.ts6-social-line__icon_icon-5 {
+    background-position-x: 40%;
+}
+
+.ts6-social-line__icon_icon-6 {
+    background-position-x: 50%;
+}
+
+.ts6-social-line__icon_icon-7 {
+    background-position-x: 60%;
+}
+
+.ts6-social-line__icon_icon-8 {
+    background-position-x: 70%;
+}
+
+.ts6-social-line__icon_icon-9 {
+    background-position-x: 80%;
+}
+
+.ts6-social-line__icon_icon-10 {
+    background-position-x: 90%;
+}
+
+.ts6-social-line__icon_icon-11 {
+    background-position-x: 100%;
+}
