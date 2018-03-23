@@ -32,21 +32,21 @@
 }
 
 .ts6-button_green {
-    background: #18a63d;
+    background: var(--color-green);
 }
 
 .ts6-button_blue {
-    background: #3f90bf;
+    background: var(--color-blue);
 }
 
 .ts6-button_red {
-    background: #ff3333;
+    background: var(--color-red);
 }
 
 .ts6-button_orange {
-    background: #fc9b00;
+    background: var(--color-orange);
 }
 
 .ts6-button_pink {
-    background: #f06eaa;
+    background: var(--color-pink);
 }
