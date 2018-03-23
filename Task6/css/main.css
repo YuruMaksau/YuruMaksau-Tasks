@@ -1,0 +1,24 @@
+:root {
+    --color-pink: #f06eaa;
+    --color-green: #18a63d;
+    --color-blue: #3f90bf;
+    --color-red: #ff3333;
+    --color-orange: #fc9b00;
+    --color-yellow: #feea00;
+    --color-dark: #393932;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.ts6-desk {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid var(--color-dark);
+}
+
+.ts6-desk_dark {
+    background: var(--color-dark);
+}

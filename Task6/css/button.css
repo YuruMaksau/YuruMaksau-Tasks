@@ -1,0 +1,52 @@
+.ts6-field {
+    display: flex;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.ts6-button {
+    border: 0;
+    padding: 8px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0 5px 8px 0;
+    cursor: pointer;
+    outline: none;
+    font-size: 12px;
+    background: var(--color-yellow);
+}
+
+.ts6-button:hover {
+    filter: brightness(75%);
+}
+
+.ts6-button_small {
+    padding: 5px;
+    font-size: 10px;
+}
+
+.ts6-button_large {
+    padding: 10px;
+    font-size: 27px;
+}
+
+.ts6-button_green {
+    background: var(--color-green);
+}
+
+.ts6-button_blue {
+    background: var(--color-blue);
+}
+
+.ts6-button_red {
+    background: var(--color-red);
+}
+
+.ts6-button_orange {
+    background: var(--color-orange);
+}
+
+.ts6-button_pink {
+    background: var(--color-pink);
+}
