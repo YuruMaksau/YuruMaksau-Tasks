@@ -4,35 +4,31 @@
     font-size: 10px;
 }
 
-.ts6-field__button {
+.ts6-button {
     border: 0;
-    padding: 0;
+    padding: 8px;
     border-radius: 5px;
     color: #ffffff;
     font-weight: bold;
     margin: 0 5px 8px 0;
     cursor: pointer;
     outline: none;
+    font-size: 12px;
+    background: var(--color-yellow);
 }
 
-.ts6-field__button:hover {
+.ts6-button:hover {
     filter: brightness(75%);
 }
 
 .ts6-button_small {
     padding: 5px;
-    font-size: 1em;
-}
-
-.ts6-button_middle {
-    padding: 8px;
-    font-size: 1.2em;
+    font-size: 10px;
 }
 
 .ts6-button_large {
     padding: 10px;
-    font-size: 2.7em;
-    background: var(--background-color-pink);
+    font-size: 27px;
 }
 
 .ts6-button_green {
@@ -51,14 +47,6 @@
     background: #fc9b00;
 }
 
-.ts6-button_yellow {
-    background: #feea00;
-}
-
-.ts6-dark {
-    background: #393932;
-}
-
-:root {
-    --background-color-pink: #f06eaa;
+.ts6-button_pink {
+    background: #f06eaa;
 }
