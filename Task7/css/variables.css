@@ -1,0 +1,18 @@
+:root {
+    --color-font-grey-welcome: #a49d97;
+    --color-font-black-donec: #3d322e;
+    --color-font-menu: #978c7a;
+    --color-font-menu-hover: #eeb588;
+    --color-font-stimulus: #273041;
+    --color-background-introdution: #f0e2d7;
+    --color-font-button: #242829;
+    --color-text-subtitle: #d2b0a6;
+    --color-text-describe: #b7b7b9;
+    --color-background-page-3: #e4ae58;
+    --color-page-3-white: #fcfdff;
+    --color-page-3-black: #391d00;
+    --color-background-page-5: #e9714c;
+    --color-background-page-6: #161616;
+    --color-background-page-7: #ffffff;
+    --brown: #b7ae6b;
+}

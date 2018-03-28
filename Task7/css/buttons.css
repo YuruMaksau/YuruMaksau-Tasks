@@ -1,0 +1,28 @@
+.content__button,
+.page-13__button {
+    font-size: 10px;
+    color: var(--color-font-button);
+    border-radius: 33px;
+}
+
+.content__button {
+    font-weight: bold;
+    margin: 0 0 200px 45px;
+    border: 3px solid var(--color-font-button);
+    padding: 20px 60px;
+    background: var(--color-background-introdution);
+}
+
+.page-13__button {
+    margin: 15px 0 0 10px;
+    padding: 15px 90px;
+    background: var(--color-page-3-white);
+    outline: none;
+    border: none;
+}
+
+.page-13__button:hover,
+.content__button:hover {
+    filter: brightness(75%);
+}
+

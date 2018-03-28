@@ -1,0 +1,25 @@
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/font_openSans/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Awesome;
+    src: url("../fonts/webfonts/fa-regular-400.woff2") format("woff2");
+    src: url("../fonts/webfonts/fa-regular-400.woff") format("woff"),
+        url("../fonts/webfonts/fa-regular-400.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Awesome;
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/webfonts/fa-brands-400.woff2") format("woff2");
+    src: url("../fonts/webfonts/fa-brands-400.woff") format("woff"),
+        url("../fonts/webfonts/fa-brands-400.ttf") format("truetype");
+}
+
