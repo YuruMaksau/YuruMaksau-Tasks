@@ -1,14 +1,15 @@
 body {
-    width: 1480px;
-    font-family: OpenSans Arial SansSerif;
+    max-width: 1480px;
+    font-family: OpenSans;
+    margin: 0 auto;
 }
 
-.layout {
+/*.global {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(8, auto);
     grid-auto-rows: minmax(100px, auto);
-}
+}*/
 
 .footer {
     grid-column: 1/5;

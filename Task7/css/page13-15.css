@@ -27,7 +27,7 @@
     border-bottom-style: solid;
     border-bottom-color: var(--color-background-page-3);
     color: var(--color-page-3-white);
-    width: 100%;
+    max-width: 100%;
     padding-bottom: 5px;
     margin-bottom: 10px;
 }

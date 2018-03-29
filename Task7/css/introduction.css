@@ -1,0 +1,90 @@
+.introduction {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.introduction-text__title {
+    font-size: var(--font-large);
+    color: var(--color-font-button);
+    margin: 50px 0 30px 40px;
+}
+
+.introduction-text__subtitle {
+    font-size: var(--font-small);
+    color: var(--color-font-menu-hover);
+    margin: 0 0 40px 40px;
+}
+
+.introduction-text__describe {
+    font-size:var(--font-small);
+    color: var(--color-font-grey-welcome);
+    margin: 0 30px 65px 30px;
+}
+
+.introduction__image {
+    background-image: url("../images/1.jpg");
+    background-position-x: -520px;
+}
+
+.white {
+    color: var(--color-page-3-white);
+    font-weight: bold;
+}
+
+.black {
+    color: var(--color-font-button);
+    font-weight: bold;
+}
+
+.progress {
+    background: var(--color-background-page-3);
+}
+
+.progress__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px 20px 50px;
+}
+
+.progress__container_text {
+    display: inline-block;
+    font-size:var(--font-small);
+    font-weight: bold;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+}
+
+.percent-90 {
+    flex-basis: 90%;
+}
+
+.percent-10 {
+    flex-basis: 10%;
+}
+
+.percent-70 {
+    flex-basis: 70%;
+}
+
+.percent-30 {
+    flex-basis: 30%;
+}
+
+.percent-30::after {
+    content: "70%";
+    margin-left: 63px;
+}
+
+.percent-80 {
+    flex-basis: 80%;
+}
+
+.percent-20 {
+    flex-basis: 20%;
+}
+
+.percent-20::after {
+    content: "80%";
+    margin-left: 43px;
+}

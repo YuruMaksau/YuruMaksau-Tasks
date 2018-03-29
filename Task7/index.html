@@ -4,63 +4,88 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Task7</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="layout">
-        <div class="header-picture"></div>
+    <div class="global">
 
         <div class="header">
-            <div class="menu">
-                <ul class="nav">
-                    <li class="nav__segment"><a class="nav__segment_name" href="">Home</a></li>
-                    <li class="nav__segment"><a class="nav__segment_name" href="">About me</a></li>
-                    <li class="nav__segment"><a class="nav__segment_name" href="">Experiences</a></li>
-                    <li class="nav__segment"><a class="nav__segment_name" href="">Testimonial</a></li>
-                    <li class="nav__segment"><a class="nav__segment_name" href="">Contact</a></li>
-                </ul>
+            <div class="header__stimulus">
+                <div class="header__stimulus_signboard">Stimulus</div>
             </div>
 
-            <div class="content">
-                <div class="content__welcome">Welcome to my website</div>
-                <div class="content__hello">Hello, I am <span class="hello">Stimulus</span> currently based in New York City.</div>
-                <div class="content__text">Donec auctor arcu at efficituar lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed degnissim urna. Vestibulum id accumsan quam.</div>
-                <button class="content__button">GET IT STARTED</button>
-            </div>
-        </div>
+            <div class="headnote">
 
-        <div class="page-1">
-            <div class="text">
-                <div class="text__title">Donec auctor</div>
-                <div class="text__subtitle">Sed vulputate vitae diam quis bibendum</div>
-                <div class="text__describe">Phasellus vulputate tellus nec tor tor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convalis eros massa. Quisoue viverra iaculisaliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh molis erat, quis porta odio odio at velit</div>
+                <nav class="nav">
+                    <ul class="nav__menu">
+                        <li class="nav__menu_item"><a class="nav__menu_item" href="">Home</a></li>
+                        <li class="nav__menu_item"><a class="nav__menu_item" href="">About me</a></li>
+                        <li class="nav__menu_item"><a class="nav__menu_item" href="">Experiences</a></li>
+                        <li class="nav__menu_item"><a class="nav__menu_item" href="">Testimonial</a></li>
+                        <li class="nav__menu_item"><a class="nav__menu_item" href="">Contact</a></li>
+                    </ul>
+                </nav>
+
+                    <div class="headnote__subtitle">Welcome to my website</div>
+                    <div class="headnote__title">Hello, I am <span class="hello">Stimulus</span> currently based in New York City.</div>
+                    <div class="headnote__describe">Donec auctor arcu at efficituar lacinia. Praesent bibendum efficitur ipsum, et mattis tellus interdum in. Ut a dictum purus. Vestibulum non pellentesque felis, sed degnissim urna. Vestibulum id accumsan quam.</div>
+                    <button class="headnote__button">Get it started</button>
             </div>
         </div>
 
-        <div class="page-2"></div>
+        <div class="introduction">
+            <div class="introduction-text">
+                    <div class="introduction-text__title">Donec auctor</div>
+                    <div class="introduction-text__subtitle">Sed vulputate vitae diam quis bibendum</div>
+                    <div class="introduction-text__describe">Phasellus vulputate tellus nec tor tor varius elementum. Curabitur at pulvinar ante. Duis dui urna, faucibus eget felis eu, iaculis congue sem. Mauris convalis eros massa. Quisoue viverra iaculisaliquam. Etiam volutpat, justo non aliquam bibendum, sem nibh molis erat, quis porta odio odio at velit</div>
+            </div>
 
-        <div class="page-3">
-            <div class="text">
-                <div class="text__caption text__caption_white">My skills</div>
-                <div class="text__subtitle text__caption_white">Photoshop. HTML CSS JS. Web Design</div>
+            <div class="introduction__image"></div>
 
-                    <div class="container-1">
-                        <div class="text__describe page-3-black percent-90">Frontend Design</div>
-                        <div class="percent page-3-white percent-10">90%</div>
+            <div class="progress">
+                    <div class="introduction-text__title white">My skills</div>
+                    <div class="introduction-text__subtitle white">Photoshop. HTML CSS JS. Web Design</div>
+
+                    <div class="progress__container">
+                        <div class="progress__container_text black percent-90">Frontend Design</div>
+                        <div class="progress__container_text white percent-10">90%</div>
                     </div>
-                    <div class="container-2">
-                        <div class="text__describe page-3-black percent-70">Backend processing</div>
-                        <div class="percent page-3-white percent-30"></div>
+
+                    <div class="progress__container">
+                        <div class="progress__container_text black percent-70">Backend processing</div>
+                        <div class="progress__container_text white percent-30"></div>
                     </div>
-                    <div class="container-3">
-                        <div class="text__describe page-3-black percent-80">HTML5 & CSS3</div>
-                        <div class="percent page-3-white percent-20"></div>
+
+                    <div class="progress__container">
+                        <div class="progress__container_text black percent-80">HTML5 & CSS3</div>
+                        <div class="progress__container_text white percent-20"></div>
                     </div>
             </div>
+
         </div>
 
-        <div class="page-4">
+
+        <div class="activities">
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+
+
+        <!-- <div class="page-4">
             <div class="page-4-content">
                 <div class="page-4-content__icon"><i class="fas fa-desktop"></i></div>
                 <div class="page-4-content__text_large">Interface Design</div>
