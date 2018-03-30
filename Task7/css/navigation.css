@@ -1,0 +1,33 @@
+.nav {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.nav__menu {
+    display: block;
+    text-align: center;
+    padding: 0;
+}
+
+.nav__menu_item:nth-child(n+2) {
+    margin-left: 15px;
+}
+
+.nav__menu_item {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: var(--font-small);
+    font-weight: bold;
+    color: var(--color-font-menu);
+}
+
+.nav__menu_item:hover {
+    color: var(--color-font-menu-hover);
+}
+
+@media screen and (max-width: 1366px) {
+    .nav__menu_item:nth-child(n+2) {
+        margin-left: 10px;
+    }
+}

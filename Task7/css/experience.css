@@ -1,0 +1,59 @@
+.experience {
+    grid-template-columns: 1fr 1fr;
+}
+
+.experience .box__text_describe,
+.box__text_icon {
+    display: inline-block;
+    font-size: var(--font-middle);
+    padding-bottom: 10px;
+}
+
+.experience .box__text_subtitle {
+    margin-bottom: 40px;
+}
+
+.experience .box__text_generation {
+    margin: 0 0 40px 50px;
+}
+
+.data {
+    color: var(--color-background-page-6);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.fas fa-laptop {
+    padding-top: 10px;
+}
+
+.picture4 {
+    background-image: url("../images/4.jpg");
+    background-size: cover;
+}
+
+.picture3 {
+    background-image: url("../images/3.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .experience {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .revert {
+        grid-template-columns: 2fr 1fr;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .picture4,
+    .picture3 {
+        display: none;
+    }
+
+    .experience {
+        grid-template-columns: 1fr;
+    }
+}
