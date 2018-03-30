@@ -1,25 +1,22 @@
 .introduction {
-    display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
 }
 
 .introduction-text__title {
     font-size: var(--font-large);
     color: var(--color-font-button);
-    margin: 50px 0 30px 40px;
+    margin-bottom: 30px;
 }
 
 .introduction-text__subtitle {
     font-size: var(--font-small);
     color: var(--color-font-menu-hover);
-    margin: 0 0 40px 40px;
+    margin-bottom: 40px;
 }
 
 .introduction-text__describe {
-    font-size:var(--font-small);
+    font-size: var(--font-small);
     color: var(--color-font-grey-welcome);
-    margin: 0 30px 65px 30px;
 }
 
 .introduction__image {
@@ -44,12 +41,12 @@
 .progress__container {
     display: flex;
     justify-content: space-between;
-    margin: 0 25px 20px 50px;
+    margin-bottom: 20px;
 }
 
 .progress__container_text {
     display: inline-block;
-    font-size:var(--font-small);
+    font-size: var(--font-small);
     font-weight: bold;
     border-bottom: 2px solid;
     padding-bottom: 5px;
@@ -87,4 +84,20 @@
 .percent-20::after {
     content: "80%";
     margin-left: 43px;
+}
+
+@media screen and (max-width: 1024px) {
+    .introduction {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .introduction__image {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .introduction {
+        grid-template-columns: 1fr;
+    }
 }

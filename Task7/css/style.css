@@ -2,9 +2,12 @@
 @import "header.css";
 @import "activities.css";
 @import "introduction.css";
-@import "fonts.css";
 @import "variables.css";
-@import "page9-10-11-12-14.css";
-@import "page13-15.css";
 @import "buttons.css";
 @import "footer.css";
+@import "experience.css";
+@import "result.css";
+@import "address.css";
+@import "fonts.css";
+@import "fontawesome.min.css";
+@import "navigation.css";

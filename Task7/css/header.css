@@ -1,73 +1,72 @@
 .header {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
+    grid-template-rows: minmax(820px, auto);
 }
 
-.header__stimulus {
+.header-title {
     background-image: url("../images/5.jpg");
     background-size: cover;
     background-position-x: -275px;
 }
 
-.header__stimulus_signboard {
+.header-title__signboard {
     display: inline-block;
     color: var(--color-font-stimulus);
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px var(--color-page-3-white);
-    margin: 30px 0 0 200px;
+    margin-left: 160px;
 }
 
 .headnote {
-    background: var( --color-background-introdution);
+    display: grid;
+    grid-template-rows: 1fr;
+    background: var(--color-background-introdution);
 }
 
-.nav {
+.text-headnote {
+    grid-column: 1/2;
+    grid-row: 1/3;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
 }
 
-.nav__menu {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-}
-
-.nav__menu_item {
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: var(--font-small);
-    font-weight: bold;
-    color: var(--color-font-menu);
-    margin: 0 20px 0 0;
-}
-
-.nav__menu_item:hover {
-    color: var(--color-font-menu-hover);
-}
-
-.headnote__title {
+.text-headnote__title {
     font-size: var(--font-large);
     color: var(--color-font-button);
-    margin: 40px 40px 40px 50px;
+    margin: 30px 0;
 }
-.headnote__subtitle {
+
+.text-headnote__subtitle {
     color: var(--color-font-grey-welcome);
     font-size: var(--font-small);
-    margin: 180px 0 0 50px;
     text-transform: uppercase;
 }
 
-.headnote__describe {
-    font-size:var(--font-small);
+.text-headnote__describe {
+    font-size: var(--font-small);
     color: var(--color-font-grey-welcome);
-    margin: 0 50px 80px 45px;
 }
 
 .hello {
     font-weight: bold;
 }
+
+@media screen and (max-width: 1024px) {
+    .header-title {
+        background-position-x: -500px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-title {
+        display: none;
+    }
+
+    .header {
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(600px, auto);
+    }
+}
+
